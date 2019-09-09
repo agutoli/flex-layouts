@@ -1,0 +1,87 @@
+#main {
+  padding-top: 80px;
+}
+
+.container {
+  max-width: 1160px;
+  display: grid;
+  grid-template-columns: 1.7fr 1fr;
+  grid-gap: 24px;
+  margin: 0 auto;
+  padding: 24px;
+  box-sizing: border-box;
+}
+
+.content {
+  grid-row-start: 1;
+  grid-row-end: 1;
+}
+
+.content h1 {
+  line-height: 2.4rem;
+  padding: 20px 0 8px 0;
+}
+
+.sidebar {
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+
+.comments {
+  grid-row-start: 2;
+  grid-row-end: 2;
+  border-top: 1px solid;
+  padding-top: 20px;
+}
+
+.comments .comment-thread {
+  display: flex;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 20px;
+}
+
+.comments .comment-thread h4 {
+  font-size: 13px;
+  margin-bottom: 5px;
+}
+
+.comments .comment-thread h4 span {
+  font-weight: 300;
+  font-size: 12px;
+  color: gray;
+}
+
+.comments .comment-thread img {
+  border-radius: 50%;
+  overflow: hidden;
+  margin-right: 10px;
+}
+
+.compact-video {
+  display: flex;
+  margin-bottom: 8px;
+}
+
+.sidebar .compact-video img {
+  display: block;
+  margin-right: 8px;
+}
+
+#player {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#player > img {
+  width: 100%;
+  max-width: 688px;
+}
+
+@media screen and (max-width: 1000px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
+}

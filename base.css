@@ -1,0 +1,54 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 10px;
+  font-family: Roboto, Arial, sans-serif;
+  background: #f9f9f9;
+}
+
+header {
+  padding: 0 16px;
+  margin-bottom: 20px;
+  height: 56px;
+  background: white;
+  box-shadow: 0px 0px 5px rgba(0,0,0,0.1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  left: 0;
+  right: 0;
+}
+
+article h1 {
+  display: block;
+  /* max-height: 4.8rem; */
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 2.4rem;
+  font-size: 1.8rem;
+}
+
+.burger-menu .menu-bar {
+  border-bottom: 2px solid #ccc;
+  margin-bottom: 4px;
+}
+
+.slim-advertiser {
+  background: #ccc;
+  height: 80px;
+  margin-bottom: 20px;
+}
+
+.burger-menu {
+  box-sizing: border-box;
+  padding: 8px;
+  width: 40px;
+  height: 40px;
+  margin: 0 16px 0 0;
+  border: none;
+}
